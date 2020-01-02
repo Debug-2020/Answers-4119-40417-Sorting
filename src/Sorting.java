@@ -88,6 +88,8 @@ public final class Sorting {
 
 			quicksort(a, left, i - 1); // Sort small elements
 			quicksort(a, i + 1, right); // Sort large elements
+		}else{
+			insertionSort(a, left, right);
 		}
 	}
 
